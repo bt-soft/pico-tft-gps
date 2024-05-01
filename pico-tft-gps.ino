@@ -250,7 +250,7 @@ void loop(void) {
         Serial.println(readVsys());
         Serial.println("\n--- main thread----------");
 
-        plotNeedle(random(0, 100), 8); // Update analogue meter, 8ms delay per needle increment
+        plotNeedle(random(0, 100), 6); // Update analogue meter, xms delay per needle increment
     }
 }
 
