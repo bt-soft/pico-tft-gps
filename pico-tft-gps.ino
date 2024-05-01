@@ -200,10 +200,11 @@ void plotNeedle(int value, byte ms_delay) {
             ms_delay += ms_delay / 5;
         }
 
+        // érték kiírása
         char buf[8];
         dtostrf(value, 3, 0, buf);
-        tft.setTextColor(TFT_DARKCYAN, TFT_WHITE);
-        tft.setCursor(70, 119 - 45);
+        tft.setTextColor(TFT_GREEN, TFT_DARKGREY);
+        tft.setCursor(85, 119 - 50);
         tft.setTextSize(4);
         tft.print(buf);
 
