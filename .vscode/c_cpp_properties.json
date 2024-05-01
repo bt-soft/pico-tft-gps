@@ -3,7 +3,7 @@
     "configurations": [
         {
             "name": "Arduino",
-            "compilerPath": "${USERPROFILE}\\AppData\\Local\\Arduino15\\packages\\rp2040\\tools\\pqt-gcc\\2.2.0-d04e724\\bin\\arm-none-eabi-g++",
+            "compilerPath": "C:\\Users\\BT\\AppData\\Local\\Arduino15\\packages\\rp2040\\tools\\pqt-gcc\\2.2.0-d04e724\\bin\\arm-none-eabi-g++",
             "compilerArgs": [
                 "-I",
                 "-Werror=return-type",
@@ -17,25 +17,25 @@
             ],
             "intelliSenseMode": "gcc-x64",
             "includePath": [
-                "${USERPROFILE}\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\3.8.0\\include",
-                "${USERPROFILE}\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\3.8.0\\cores\\rp2040",
-                "${USERPROFILE}\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\3.8.0\\variants\\rpipico",
-                "${USERPROFILE}\\Documents\\Arduino\\libraries\\Streaming\\src",
-                "${USERPROFILE}\\Documents\\Arduino\\libraries\\MCUFRIEND_kbv",
-                "${USERPROFILE}\\Documents\\Arduino\\libraries\\Adafruit_GFX_Library",
-                "${USERPROFILE}\\Documents\\Arduino\\libraries\\Adafruit_BusIO",
-                "${USERPROFILE}\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\3.8.0\\libraries\\Wire\\src",
-                "${USERPROFILE}\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\3.8.0\\libraries\\SPI\\src",
-                "${USERPROFILE}\\Documents\\Arduino\\libraries\\TinyGPSPlus\\src",
-                "${USERPROFILE}\\appdata\\local\\arduino15\\packages\\rp2040\\tools\\pqt-gcc\\2.2.0-d04e724\\arm-none-eabi\\include\\c++\\12.3.0",
-                "${USERPROFILE}\\appdata\\local\\arduino15\\packages\\rp2040\\tools\\pqt-gcc\\2.2.0-d04e724\\arm-none-eabi\\include\\c++\\12.3.0\\arm-none-eabi\\thumb",
-                "${USERPROFILE}\\appdata\\local\\arduino15\\packages\\rp2040\\tools\\pqt-gcc\\2.2.0-d04e724\\arm-none-eabi\\include\\c++\\12.3.0\\backward",
-                "${USERPROFILE}\\appdata\\local\\arduino15\\packages\\rp2040\\tools\\pqt-gcc\\2.2.0-d04e724\\lib\\gcc\\arm-none-eabi\\12.3.0\\include",
-                "${USERPROFILE}\\appdata\\local\\arduino15\\packages\\rp2040\\tools\\pqt-gcc\\2.2.0-d04e724\\lib\\gcc\\arm-none-eabi\\12.3.0\\include-fixed",
-                "${USERPROFILE}\\appdata\\local\\arduino15\\packages\\rp2040\\tools\\pqt-gcc\\2.2.0-d04e724\\arm-none-eabi\\include"
+                "C:\\Users\\BT\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\3.8.0\\include",
+                "C:\\Users\\BT\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\3.8.0\\cores\\rp2040",
+                "C:\\Users\\BT\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\3.8.0\\variants\\rpipico",
+                "C:\\Users\\BT\\Documents\\Arduino\\libraries\\Streaming\\src",
+                "C:\\Users\\BT\\Documents\\Arduino\\libraries\\MCUFRIEND_kbv",
+                "C:\\Users\\BT\\Documents\\Arduino\\libraries\\Adafruit_GFX_Library",
+                "C:\\Users\\BT\\Documents\\Arduino\\libraries\\Adafruit_BusIO",
+                "C:\\Users\\BT\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\3.8.0\\libraries\\Wire\\src",
+                "C:\\Users\\BT\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\3.8.0\\libraries\\SPI\\src",
+                "C:\\Users\\BT\\Documents\\Arduino\\libraries\\TinyGPSPlus\\src",
+                "c:\\users\\bt\\appdata\\local\\arduino15\\packages\\rp2040\\tools\\pqt-gcc\\2.2.0-d04e724\\arm-none-eabi\\include\\c++\\12.3.0",
+                "c:\\users\\bt\\appdata\\local\\arduino15\\packages\\rp2040\\tools\\pqt-gcc\\2.2.0-d04e724\\arm-none-eabi\\include\\c++\\12.3.0\\arm-none-eabi\\thumb",
+                "c:\\users\\bt\\appdata\\local\\arduino15\\packages\\rp2040\\tools\\pqt-gcc\\2.2.0-d04e724\\arm-none-eabi\\include\\c++\\12.3.0\\backward",
+                "c:\\users\\bt\\appdata\\local\\arduino15\\packages\\rp2040\\tools\\pqt-gcc\\2.2.0-d04e724\\lib\\gcc\\arm-none-eabi\\12.3.0\\include",
+                "c:\\users\\bt\\appdata\\local\\arduino15\\packages\\rp2040\\tools\\pqt-gcc\\2.2.0-d04e724\\lib\\gcc\\arm-none-eabi\\12.3.0\\include-fixed",
+                "c:\\users\\bt\\appdata\\local\\arduino15\\packages\\rp2040\\tools\\pqt-gcc\\2.2.0-d04e724\\arm-none-eabi\\include"
             ],
             "forcedInclude": [
-                "${USERPROFILE}\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\3.8.0\\cores\\rp2040\\Arduino.h"
+                "C:\\Users\\BT\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\3.8.0\\cores\\rp2040\\Arduino.h"
             ],
             "cStandard": "c11",
             "cppStandard": "c++17",
