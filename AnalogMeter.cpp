@@ -177,7 +177,7 @@ void AnalogMeter::plotNeedle(int value, byte ms_delay) {
         }
 
         // érték kiírása
-        char buf[8];
+        char buf[4];
         dtostrf(value, 3, 0, buf);
         tft->setTextColor(TFT_GREEN, TFT_DARKGREY);
         tft->setCursor(85, 119 - 50);
