@@ -12,7 +12,8 @@ TinyGPSPlus gps;
 #include "AnalogMeter.h"
 AnalogMeter analogMeter = AnalogMeter(&tft);
 
-#include "DayLightSaving.h"
+const uint16_t screenWidth = tft.height(); // landscape
+const uint16_t screenHeight = tft.width();
 
 /**
  * Core-0 Setup
