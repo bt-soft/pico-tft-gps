@@ -67,7 +67,7 @@ void clearStrRect(const char *str, int16_t strX, int16_t strY) {
  * Sebesség kijelzése
  */
 #define LOC_SPEED_X 170
-#define LOC_SPEED_Y 280
+#define LOC_SPEED_Y 260
 void displaySpeed(int speed) {
     tft.setFont(&FreeSerifBold24pt7b);
     tft.setTextColor(TFT_WHITE);
@@ -175,6 +175,12 @@ void drawDisplay() {
     tft.drawRoundRect(tft.width() - LOWER_BLOCK_WIDTH, 250, LOWER_BLOCK_WIDTH, BLOCK_HEIGHT, BLOCK_RADIUS, TFT_CYAN);
     tft.setCursor(345, 254);
     tft.print("Time");
+
+    tft.setFont(&FreeSansBold18pt7b);
+    tft.setTextSize(1);
+    tft.setTextColor(TFT_WHITE);
+    tft.setCursor(205, tft.height());
+    tft.print("km/h");
 }
 
 /**
