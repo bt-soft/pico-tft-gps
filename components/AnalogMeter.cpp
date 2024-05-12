@@ -187,4 +187,12 @@ void AnalogMeter::plotNeedle(int value, byte ms_delay) {
         // Wait before next update
         delay(ms_delay);
     }
+
+#include "AnalogMeter.h"
+    AnalogMeter analogMeter = AnalogMeter(&tft);
+
+    void test(void) {
+        analogMeter.draw();                        // Draw analogue meter
+        analogMeter.plotNeedle(random(0, 100), 6); // Update analogue meter, xms delay per needle increment
+    }
 }
