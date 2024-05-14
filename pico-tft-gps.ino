@@ -48,9 +48,7 @@ float battVoltage() {
     Serial << "Vout: " << voltageOut << endl;
 
     // Eredeti feszültség számítása a feszültségosztó alapján
-    float result = voltageOut * ATTENNUATOR;
-
-    return result;
+    return voltageOut * ATTENNUATOR;
 }
 
 /**
