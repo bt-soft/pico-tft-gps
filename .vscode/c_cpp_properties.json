@@ -27,6 +27,8 @@
                 "C:\\Users\\BT\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\3.8.0\\libraries\\Wire\\src",
                 "C:\\Users\\BT\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\3.8.0\\libraries\\SPI\\src",
                 "C:\\Users\\BT\\Documents\\Arduino\\libraries\\TinyGPSPlus\\src",
+                "C:\\Users\\BT\\Documents\\Arduino\\libraries\\OneWire",
+                "C:\\Users\\BT\\Documents\\Arduino\\libraries\\DallasTemperature",
                 "c:\\users\\bt\\appdata\\local\\arduino15\\packages\\rp2040\\tools\\pqt-gcc\\2.2.0-d04e724\\arm-none-eabi\\include\\c++\\12.3.0",
                 "c:\\users\\bt\\appdata\\local\\arduino15\\packages\\rp2040\\tools\\pqt-gcc\\2.2.0-d04e724\\arm-none-eabi\\include\\c++\\12.3.0\\arm-none-eabi\\thumb",
                 "c:\\users\\bt\\appdata\\local\\arduino15\\packages\\rp2040\\tools\\pqt-gcc\\2.2.0-d04e724\\arm-none-eabi\\include\\c++\\12.3.0\\backward",

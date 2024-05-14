@@ -12,7 +12,8 @@
         "initializer_list": "cpp",
         "regex": "cpp",
         "sstream": "cpp",
-        "chrono": "cpp"
+        "chrono": "cpp",
+        "functional": "cpp"
     },
 
 }
