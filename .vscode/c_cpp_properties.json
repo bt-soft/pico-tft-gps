@@ -17,15 +17,15 @@
             ],
             "intelliSenseMode": "gcc-x64",
             "includePath": [
-                "C:\\Users\\BT\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\3.8.0\\include",
-                "C:\\Users\\BT\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\3.8.0\\cores\\rp2040",
-                "C:\\Users\\BT\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\3.8.0\\variants\\rpipico",
+                "C:\\Users\\BT\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\3.8.1\\include",
+                "C:\\Users\\BT\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\3.8.1\\cores\\rp2040",
+                "C:\\Users\\BT\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\3.8.1\\variants\\rpipico",
                 "C:\\Users\\BT\\Documents\\Arduino\\libraries\\Streaming\\src",
                 "C:\\Users\\BT\\Documents\\Arduino\\libraries\\MCUFRIEND_kbv",
                 "C:\\Users\\BT\\Documents\\Arduino\\libraries\\Adafruit_GFX_Library",
                 "C:\\Users\\BT\\Documents\\Arduino\\libraries\\Adafruit_BusIO",
-                "C:\\Users\\BT\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\3.8.0\\libraries\\Wire\\src",
-                "C:\\Users\\BT\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\3.8.0\\libraries\\SPI\\src",
+                "C:\\Users\\BT\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\3.8.1\\libraries\\Wire\\src",
+                "C:\\Users\\BT\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\3.8.1\\libraries\\SPI\\src",
                 "C:\\Users\\BT\\Documents\\Arduino\\libraries\\TinyGPSPlus\\src",
                 "C:\\Users\\BT\\Documents\\Arduino\\libraries\\OneWire",
                 "C:\\Users\\BT\\Documents\\Arduino\\libraries\\DallasTemperature",
@@ -37,7 +37,7 @@
                 "c:\\users\\bt\\appdata\\local\\arduino15\\packages\\rp2040\\tools\\pqt-gcc\\2.2.0-d04e724\\arm-none-eabi\\include"
             ],
             "forcedInclude": [
-                "C:\\Users\\BT\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\3.8.0\\cores\\rp2040\\Arduino.h"
+                "C:\\Users\\BT\\AppData\\Local\\Arduino15\\packages\\rp2040\\hardware\\rp2040\\3.8.1\\cores\\rp2040\\Arduino.h"
             ],
             "cStandard": "c11",
             "cppStandard": "c++17",
