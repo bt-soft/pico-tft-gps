@@ -4,7 +4,7 @@
 
 #include <MCUFRIEND_kbv.h>
 MCUFRIEND_kbv tft;
-uint16_t ID;
+uint16_t tftID;
 #include <Fonts/FreeSans12pt7b.h>
 #include <Fonts/FreeSansBold12pt7b.h>
 #include <Fonts/FreeSansBold18pt7b.h>
@@ -45,7 +45,7 @@ float battVoltage() {
     // ADC érték átalakítása feszültséggé
     float voltageOut = (analogRead(A3) * V_REF) / AD_RES;
     voltageOut -= 0.11; // csalunk egyet, ennyire nem lenne pontos az AD??
-    Serial << "Vout: " << voltageOut << endl;
+    // Serial << "Vout: " << voltageOut << endl;
 
     // Eredeti feszültség számítása a feszültségosztó alapján
     return voltageOut * ATTENNUATOR;
@@ -229,11 +229,10 @@ void setup(void) {
     // TFT init
     tft.reset();
 
-    ID = tft.readID();
-    Serial.print("TFT ID = 0x");
-    Serial.println(ID, HEX);
+    tftID = tft.readID();
+    Serial << "TFT id: " << tftID << endl;
 
-    tft.begin(ID);
+    tft.begin(tftID);
     tft.setRotation(1);
     tft.fillScreen(TFT_BLACK);
 
@@ -255,8 +254,6 @@ void loop(void) {
     while (true) {
         drawValues();
         delay(1000);
-        // Serial.printf("screenWidth: %d", screenWidth);
-        // Serial.printf("screenHeight: %d", screenHeight);
     }
 }
 
@@ -277,8 +274,8 @@ void setup1(void) {
 void loop1(void) {
 
     while (true) {
-        while (Serial1.available()) {
 
+        while (Serial1.available()) {
             if (gps.encode(Serial1.read())) {
                 gpsDataReceivedLED();
                 break;
